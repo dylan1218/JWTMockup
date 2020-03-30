@@ -1,0 +1,15 @@
+  {% load static %}
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{% static 'postTokenRequest.js' %}"></script>  
+</head>
+<form id="loginForm" action="#">
+    <label for="fname">username:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">password:</label><br>
+    <input type="text" id="lname" name="lname">
+    <br>
+    <button type="button" onclick="postTokenRequest()">login</button>    
+    <p> <a href="#">Forgot your password?</a></p>
+</form>
+
