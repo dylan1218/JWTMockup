@@ -1,12 +1,13 @@
 # Django REST Framework JWT Example
+Backend code example used in this repoistory [How to Use JWT Authentication with Django REST Framework](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html).
+
 ## Initial request
 
 ![Alt text](TokenRequest.png "Optional Title")
 ![Alt text](TokenNetworkRequest.png "Optional Title")
 ## Cookie setting
-![Alt text](Request Cookies.png "Optional Title")
+![Alt text](Request_Cookies.png "Optional Title")
 
-Backend code example used in this repoistory [How to Use JWT Authentication with Django REST Framework](https://simpleisbetterthancomplex.com/tutorial/2018/12/19/how-to-use-jwt-authentication-with-django-rest-framework.html).
 
 ## Running the Project Locally
 
