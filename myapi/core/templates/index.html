@@ -3,13 +3,18 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="{% static 'postTokenRequest.js' %}"></script>  
 </head>
-<form id="loginForm" action="#">
-    <label for="fname">username:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">password:</label><br>
-    <input type="text" id="lname" name="lname">
+<div id="loginForm">
+<form id="loginFormInputs" action="#">
+    <label for="username">username:</label><br>
+    <input type="text" id="uname" name="username"><br>
+    <label for="password">password:</label><br>
+    <input type="text" id="pword" name="password">
     <br>
     <button type="button" onclick="postTokenRequest()">login</button>    
     <p> <a href="#">Forgot your password?</a></p>
 </form>
-
+<div>
+<br>
+<br>
+<br>
+<button type="button" onclick="protectedRequest()">Access protected resource</button>    
